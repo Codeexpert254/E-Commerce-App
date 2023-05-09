@@ -1,6 +1,6 @@
-const MySqli = require ('mysqli');
+const Mysqli = require ('mysqli');
 
-let conn = new MySqli({
+let conn = new Mysqli({
     host: 'localhost',
     post: 3306,
     user: 'mega_user',

@@ -10,8 +10,8 @@ const productsRoute = require('./routes/products');
 const usersRoute = require('./routes/users');
 
 //Use Routes
-app.use('api/products', productsRoute);
-app.use('api/users', usersRoute);
+app.use('/api/products', productsRoute);
+app.use('/api/users', usersRoute);
 
 app.use(cors({
     origin: '*',
